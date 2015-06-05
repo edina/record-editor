@@ -1,0 +1,46 @@
+{
+  "name": "record-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "node_modules/jshint/bin/jshint src/www/js/**.js",
+    "release": "npm run lint && node_modules/release-it/bin/release.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-server": "node_modules/beefy/bin/beefy --cwd app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edina/record-editor.git"
+  },
+  "author": "",
+  "license": "BDS-3",
+  "bugs": {
+    "url": "https://github.com/edina/record-editor/issues"
+  },
+  "homepage": "https://github.com/edina/record-editor",
+  "jspm": {
+    "directories": {
+      "baseURL": "app"
+    },
+    "dependencies": {
+      "backbone": "npm:backbone@^1.2.1",
+      "bootstrap": "github:twbs/bootstrap@^3.3.4",
+      "css": "github:systemjs/plugin-css@^0.1.12",
+      "fieldtrip-records": "npm:fieldtrip-records@^0.0.1",
+      "jquery": "github:components/jquery@^2.1.4",
+      "leaflet": "npm:leaflet@^0.7.3",
+      "pcapi": "npm:pcapi@^0.0.8"
+    },
+    "devDependencies": {
+      "traceur": "github:jmcriffey/bower-traceur@0.0.88",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.88"
+    }
+  },
+  "devDependencies": {
+    "beefy": "^2.1.5",
+    "jshint": "^2.8.0",
+    "release-it": "0.0.15",
+    "uglify": "^0.1.5"
+  }
+}

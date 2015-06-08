@@ -27,7 +27,9 @@
       "backbone": "npm:backbone@^1.2.1",
       "bootstrap": "github:twbs/bootstrap@^3.3.4",
       "css": "github:systemjs/plugin-css@^0.1.12",
-      "fieldtrip-records": "npm:fieldtrip-records@^0.0.1",
+      "fieldtrip-records": "npm:fieldtrip-records@^0.0.2",
+      "handlebars": "github:components/handlebars.js@^3.0.3",
+      "hbs": "github:davis/plugin-hbs@master",
       "jquery": "github:components/jquery@^2.1.4",
       "leaflet": "npm:leaflet@^0.7.3",
       "pcapi": "npm:pcapi@^0.0.8"
